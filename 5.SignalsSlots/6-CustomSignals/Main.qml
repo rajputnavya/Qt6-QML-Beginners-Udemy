@@ -16,7 +16,8 @@ Window {
         signal greet(string message)
 
 
-        //The signal handler: arrow function syntax
+        //The Slot or signal handler: arrow function syntax
+        // on<SignalName> -> camel case 
         /*
         onGreet: message => {
             console.log("Greeting with message: " + message)
