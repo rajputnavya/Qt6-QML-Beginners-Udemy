@@ -15,7 +15,7 @@ Window {
         //Set up the signal
         signal greet(string message)
 
-        //Set up the custom handler function
+        //Set up the custom handler function (on<SignalName> -> qml handler)
         function respond_your_way(message){
             console.log("Custom response: " + message)
         }
