@@ -25,7 +25,7 @@ Window {
         MouseArea{
             anchors.fill: parent
             onClicked: {
-                //Fire the greet signal
+                //Fire the greet signal (Emitting signal)
                 rectId.greet("The sky is blue")
             }
         }
