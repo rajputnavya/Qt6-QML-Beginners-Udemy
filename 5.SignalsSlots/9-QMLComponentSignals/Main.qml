@@ -1,3 +1,4 @@
+//Sending Signals Across Components
 import QtQuick
 
 Window {
