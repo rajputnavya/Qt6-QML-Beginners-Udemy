@@ -32,7 +32,7 @@ Window {
         MouseArea{
             anchors.fill: parent
             onClicked: {
-                //Fire(trigger) the signal
+                //Fire(trigger) / Emit the signal
                 //rectId.greet("The sky is blue")
                 //greet("The sky is blue") // Won't work, you have to go through the ID
             }
