@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
         &app,
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
-    engine.addImportPath(":/");
+    engine.addImportPath(":/");  //Add this import path
     engine.loadFromModule("QMLModules", "Main");
 
     return app.exec();
