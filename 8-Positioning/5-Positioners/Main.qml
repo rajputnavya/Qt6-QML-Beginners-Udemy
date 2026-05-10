@@ -16,7 +16,7 @@ Window {
         verticalItemAlignment:  Grid.AlignVCenter
 
 
-        LayoutMirroring.enabled: true
+        LayoutMirroring.enabled: true //mirrors 2 columns (left one goes to right, right one goes to left)
         LayoutMirroring.childrenInherit: true
 
         Rectangle {
