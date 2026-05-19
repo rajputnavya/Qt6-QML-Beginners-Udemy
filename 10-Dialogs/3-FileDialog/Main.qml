@@ -33,7 +33,7 @@ Window {
         FileDialog{
             id: fileDialogId
             title: "Choose file"
-            nameFilters: ["Text files (*.txt)", "HTML files (*.html *.htm)", "Images (*.jpg *.png)"]
+            nameFilters: ["Text files (*.txt)", "HTML files (*.html *.htm)", "Images (*.jpg *.png)"] //type of allowed files, can add more
             fileMode: FileDialog.OpenFiles // Allow for selecting multiple files
             onAccepted: function(){
                 textId.text = currentFile
