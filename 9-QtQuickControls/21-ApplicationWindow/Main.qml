@@ -39,7 +39,7 @@ ApplicationWindow {
                 icon.source: "images/saveAsIcon.png"
             }
 
-            MenuSeparator{
+            MenuSeparator{ //Thin line to seperate menu Actions
 
             }
 
