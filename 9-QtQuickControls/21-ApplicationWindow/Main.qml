@@ -12,7 +12,7 @@ ApplicationWindow {
 
         Menu{
             title: "File"
-            Action{
+            Action{ //Add Menu Items inside Menu Object
                 id: newActionId
                 text: "New"
                 icon.source: "images/newFileIcon.png"
@@ -96,7 +96,7 @@ ApplicationWindow {
         Row{
             anchors.fill: parent
             ToolButton{
-                action: newActionId
+                action: newActionId //referring from Menu bar only
             }
             ToolButton{
                 action: saveActionId
