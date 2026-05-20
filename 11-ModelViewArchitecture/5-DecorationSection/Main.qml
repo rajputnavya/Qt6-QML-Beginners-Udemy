@@ -52,7 +52,7 @@ Window {
         section{
             property: "company"
             criteria: ViewSection.FullString
-            delegate: Rectangle{
+            delegate: Rectangle{ //delegate for section
                 id: sectionRectId
                 width: parent.width
                 height: 50
@@ -62,7 +62,7 @@ Window {
 
                 Text{
                     id: sectionTextId
-                    text: section
+                    text: section // GOOGLE, TESLA and SIEMENS will be the section headers
                     anchors.centerIn: parent
                     font.pointSize: 20
                 }
