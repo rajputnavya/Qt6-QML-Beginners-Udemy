@@ -67,14 +67,14 @@ Window {
             Layout.fillWidth: true
             onClicked: function(){
                 if(2 < listViewId.model.count){ // If we have more than 2 items
-                    listModelId.remove(2,1)
+                    listModelId.remove(2,1) //start index, no. of items to delete (0 based indexing)
                 }else{
                     console.log("Index is invalid")
                 }
             }
         }
         Button{
-            text: "Set item at index 1"
+            text: "Set item at index 1" //Replace an item at index 1
             Layout.fillWidth: true
             onClicked: function(){
                 listModelId.set(1,{
