@@ -24,7 +24,7 @@ Window {
             radius: 15
             border.color: "yellowgreen"
             opacity: 0.1
-            z: 3
+            z: 3 // to make it appear on top
         }
 
         model: ["January",
@@ -59,7 +59,7 @@ Window {
                 anchors.fill: parent
                 onClicked: function(){
                     console.log("Clicked on: " + modelData)
-                    listViewId.currentIndex = index
+                    listViewId.currentIndex = index // for highlight to move to current element when we click
                 }
             }
         }
