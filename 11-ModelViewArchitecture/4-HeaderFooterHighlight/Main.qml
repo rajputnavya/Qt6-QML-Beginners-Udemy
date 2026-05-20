@@ -12,7 +12,7 @@ Window {
         id: listViewId
         anchors.fill: parent
         header: headerId
-        footer: Rectangle{
+        footer: Rectangle{ //inline footer
             width: rootId.width
             height: 50
             color: "dodgerblue"
@@ -65,6 +65,7 @@ Window {
         }
     }
 
+    //header as an external Component , then attach it in ListView Using ID
     Component{
         id: headerId
         Rectangle{
