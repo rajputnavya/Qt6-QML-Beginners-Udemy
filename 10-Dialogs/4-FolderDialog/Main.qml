@@ -29,7 +29,7 @@ Window {
         FolderDialog {
             id: folderDialogId
             title: "Choose Folder"
-            currentFolder: folderDialogId.currentFolder
+            currentFolder: folderDialogId.currentFolder //which folder will automatically open after popping up dialog(by default->default location)
             onAccepted: {
                 textId.text = currentFolder;
             }
